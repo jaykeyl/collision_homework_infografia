@@ -53,10 +53,10 @@ func _on_hurtbox_area_entered(area: Area2D) -> void:
 		hp-=1
 		auch.emit()
 	elif (area.name == "Fireball"):
-		print("iwi")
+		print("uwu")
 		
 func get_gem():
-	print("Conseguiste la gema! matalos a todos!")
+	print("Conseguiste la gema! Mata a tus enemigos!")
 	has_gem = true;
 	$Hitbox/CollisionShape2D.disabled=false
 	$Sprite2D.modulate = Color(0.5, 0.8, 1.0)
